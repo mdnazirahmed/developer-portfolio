@@ -1,0 +1,24 @@
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 25px;
+}
+span {
+  color: orange;
+}
+section {
+  display: flex;
+}
+.imgandtext {
+  width: 50%;
+  padding-left: 3%;
+}
+.imgandtext img {
+  width: 100%;
+}
+
+a {
+  background-color: crimson;
+  border-radius: 30px;
+  padding: 20px;
+  color: aliceblue;
+}
