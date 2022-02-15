@@ -1,9 +1,14 @@
 body {
   font-family: "Poppins", sans-serif;
   font-size: 25px;
+  margin: 0%;
 }
 span {
   color: orange;
+}
+#top-banner {
+  background-image: url(top-banner.png);
+  background-repeat: no-repeat;
 }
 section {
   display: flex;
@@ -15,10 +20,15 @@ section {
 .imgandtext img {
   width: 100%;
 }
+lorem {
+  text-align: justify;
+}
 
 a {
-  background-color: crimson;
+  background-image: linear-gradient(hotpink gold);
   border-radius: 30px;
-  padding: 20px;
-  color: aliceblue;
+  padding: 10px 40px;
+  color: rgb(27, 139, 236);
+  text-decoration: none;
+  border: solid;
 }
