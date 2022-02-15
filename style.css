@@ -10,8 +10,10 @@ span {
   background-image: url(top-banner.png);
   background-repeat: no-repeat;
 }
+
 section {
   display: flex;
+  margin-bottom: 135px;
 }
 .imgandtext {
   width: 50%;
@@ -20,8 +22,16 @@ section {
 .imgandtext img {
   width: 100%;
 }
+.dream-big {
+  background-image: url(dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
 lorem {
   text-align: justify;
+}
+#second-text {
+  padding-right: 90px;
 }
 
 a {
