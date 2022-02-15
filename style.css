@@ -6,11 +6,16 @@ body {
 span {
   color: orange;
 }
-#top-banner {
+.top-banner {
   background-image: url(top-banner.png);
   background-repeat: no-repeat;
 }
-section {
+#experience-area {
+  background-image: url(exp-bg.png);
+  background-repeat: no-repeat;
+}
+
+.flexible-container {
   display: flex;
   margin-bottom: 135px;
 }
@@ -21,6 +26,22 @@ section {
 }
 .imgandtext img {
   width: 100%;
+}
+.box-shadow {
+  box-shadow: 10px 10px 40px gray;
+  width: 40%;
+  margin-right: 5%;
+  margin-left: 5%;
+  padding: 20px;
+  font-size: smaller;
+  text-align: left;
+  border-radius: 40px;
+}
+#experience-first {
+  border-left: 10px rgb(228, 27, 228);
+}
+#experience-second {
+  border-left: 10px greenyellow;
 }
 .dream-big {
   background-image: url(dream-bg.png);
@@ -41,8 +62,4 @@ a {
   color: rgb(27, 139, 236);
   text-decoration: none;
   border: solid;
-}
-.flexible {
-  display: flex;
-  margin-bottom: 135px;
 }
