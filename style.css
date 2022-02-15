@@ -10,11 +10,11 @@ span {
   background-image: url(top-banner.png);
   background-repeat: no-repeat;
 }
-
 section {
   display: flex;
   margin-bottom: 135px;
 }
+
 .imgandtext {
   width: 50%;
   padding-left: 3%;
@@ -41,4 +41,8 @@ a {
   color: rgb(27, 139, 236);
   text-decoration: none;
   border: solid;
+}
+.flexible {
+  display: flex;
+  margin-bottom: 135px;
 }
